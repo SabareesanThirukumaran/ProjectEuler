@@ -12,3 +12,7 @@ while len(primes) != 10001:
     current += 1
 
 print(primes[-1])
+
+# To calculate primes -->
+# Start from the first prime number (2) until the root of the current possible prime. Check if any of those numbers can divide evenly into the current number and if it does, it isnt a prime
+# So we can stop checking and move to the next

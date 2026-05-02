@@ -1,4 +1,6 @@
 def primeFactors(n):
+    # To see number of divisors : multiply the (exponents + 1) of each prime factor of a number.
+    # To calculate prime factors of a number, keep a running counter of divisors (i.e 2, 3, 4, 5) and keep dividing by the divisor until the remaining number becomes 1
     divisor = 2
     remaining = n
     primes = {}
@@ -19,6 +21,7 @@ def primeFactors(n):
     return product > 500
             
 def triangles():
+    # Triangle number formula is n(n+1)/2
     n = 1
     triNum = (n * (n+1)) / 2
     while not primeFactors(triNum):

@@ -60,4 +60,9 @@ while count != ((20*20) - 4):
 
 print(highestProduct)
 
+# Check four directions --> Right, Down, Down Right, and Down Left for each possible number on the grid
+# Check if the directions are valid, if it is, calculate the product of the four coordinates in that direction
+# Check if that product is more than the current highest product and if it is, then set it as the new highest product
+# Keep repeating until you get to the 3rd last number (as then, no directions would work)
+
 

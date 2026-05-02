@@ -22,3 +22,6 @@ for i in range(1, 1000000):
         starting_num = i
 
 print(starting_num)
+
+# Keep a dictionary of all visited starting paths
+# Recursively calculate the length of the path for each starting number

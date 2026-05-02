@@ -10,3 +10,5 @@ for chunk in num:
             largestProuctSoFar = product
 
 print(largestProuctSoFar)
+
+# Check the product of the a running counter of 13 digits until the last 13 digits are reached
